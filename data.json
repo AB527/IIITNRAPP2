@@ -1,0 +1,206 @@
+{
+    "home": {
+        "options": [
+            {
+                "name": "Complaints",
+                "logo": "warning",
+                "link": "complaints"
+            },
+            {
+                "name": "Gatepass",
+                "logo": "male",
+                "link": "gatepass"
+            },
+            {
+                "name": "Buy/Sell",
+                "logo": "shopping-cart",
+                "link": "buyandsell"
+            },
+            {
+                "name": "Contacts",
+                "logo": "address-book",
+                "link": "contacts"
+            },
+            {
+                "name": "Found/Lost",
+                "logo": "search",
+                "link": "lostandfound"
+            },
+            {
+                "name": "Contact Developers",
+                "logo": "question-circle",
+                "link": "contactdevelopers"
+            }
+        ]
+    },
+    "complaints": {
+        "options": [
+            {
+                "name": "Lodge",
+                "logo": "plus",
+                "link": "complaints_lodge"
+            },
+            {
+                "name": "My live complaints",
+                "logo": "feed",
+                "link": "complaints_live"
+            },
+            {
+                "name": "My history",
+                "logo": "history",
+                "link": "complaints_history"
+            }
+        ]
+    },
+    "complaints_lodge": {
+        "categories": [
+            {"label":"Room", "value": "Room"},
+            {"label":"Electricity", "value": "Electricity"},
+            {"label":"Mess", "value": "Mess"},
+            {"label":"Washroom", "value": "Washroom"},
+            {"label":"Others", "value": "Others"}
+        ]
+    },
+    "gatepass": {
+        "options": [
+            {
+                "name": "History",
+                "logo": "history",
+                "link": "gatepass_history"
+            },
+            {
+                "name": "My pass",
+                "logo": "qrcode",
+                "link": "gatepass_new"
+            }
+        ]
+    },
+    "gatepass_history": {
+        "filter": {
+            "months": [
+                { "label": "All time", "value": "0" },
+                { "label": "January", "value": "1" },
+                { "label": "February", "value": "2" },
+                { "label": "March", "value": "3" },
+                { "label": "April", "value": "4" },
+                { "label": "May", "value": "5" },
+                { "label": "June", "value": "6" },
+                { "label": "July", "value": "7" },
+                { "label": "August", "value": "8" },
+                { "label": "September", "value": "9" },
+                { "label": "October", "value": "10" },
+                { "label": "November", "value": "11" },
+                { "label": "December", "value": "12" }
+            ],
+            "year": [
+                { "label": "All time", "value": "0" },
+                { "label": "2024", "value": "2024" }
+            ]
+        },
+        "data": [
+            {
+                "outtime_date": "02/09/2024",
+                "outtime_time": "08:56",
+                "intime_date": "02/09/2024",
+                "intime_time": "15:28",
+                "location": "Mall",
+                "purpose": "Movie",
+                "approved_by": "Raman House"
+            }
+        ]
+    },
+    "contactdevelopers": {
+        "lead1": {
+            "image": "teamhead",
+            "name" : "Dr. Ramakrishna Bandi",
+            "description": "Dr. Ramakrishna Bandi, our esteemed team lead, has been an invaluable pillar of support throughout the journey of developing this app. His keen involvement and guidance have played a significant role in its success."
+        },
+        "lead2": {
+            "image": "anandSIR",
+            "name" : "Mr. Anand Bachker",
+            "description": "Mr. Anand Bachker, our MUN legend, bestowed upon us the Gatepass app, a true game-changer. Thanks to his brilliance, he's already saved heaps of time for students, and it's still going strong! Let's raise a toast to the creator of Gatepass for spicing up our lives!"
+        },
+        "developers": [
+            {
+                "name" : "Niket Patel",
+                "email": "niket22100@iiitnr.edu.in",
+                "image": "niket"
+            },
+            {
+                "name" : "Atharva Bedekar",
+                "email": "bedekar24100@iiitnr.edu.in",
+                "image": "atharva"
+            },
+            {
+                "name" : "Sameer Yadav",
+                "email": "sameer22100@iiitnr.edu.in",
+                "image": "sameer"
+            },
+            {
+                "name" : "Shubham Gupta",
+                "email": "shubham22102@iiitnr.edu.in",
+                "image": "shubham"
+            }        
+        ]
+    },
+    "contacts": [
+        {
+            "name": "Sanu Dhruw",
+            "position": "Ramanujan caretaker",
+            "number": "9340954723"
+        },
+        {
+            "name": "Lalu",
+            "position": "Ramanujan caretaker",
+            "number": "6263565399"
+        }
+    ],
+    "buyandsell": [
+        {
+            "title":"arduino uno R3",
+            "description": ".",
+            "price": "600",
+            "contact_no": "9143201145",
+            "seller_name": "Vishal Sharma",
+            "email": "vishal22100@iiitnr.edu.in",
+            "publish_date": "28-08-2024",
+            "publish_time": "06:28",
+            "image": ""
+        },
+        {
+            "title": "Umbrella",
+            "description": "black and blue umbrella",
+            "price": "200",
+            "contact_no": "8529133411",
+            "seller_name": "Ayush Yadav",
+            "email": "ayush22100@iiitnr.edu.in",
+            "publish_date": "23-08-2024",
+            "publish_time": "11:58",
+            "image": ""
+        }
+    ],
+    "lostandfound": [
+        {
+            "status": "Lost",
+            "title":"umbrella",
+            "description": "",
+            "contact_name": "Ananya R Nair",
+            "phone": "9037987991",
+            "email": "ananya24102@iiitnr.edu.in",
+            "publish_date": "03-09-2024",
+            "publish_time": "12:42",
+            "image": ""
+        },
+        {
+            "status": "Found",
+            "title":"Boat buds and bottle",
+            "description": "",
+            "contact_name": "Shivam Chaudary",
+            "phone": "8887537774",
+            "email": "shivamc24101@iiitnr.edu.in",
+            "publish_date": "30-08-2024",
+            "publish_time": "13:59",
+            "image": ""
+        }
+    ]
+}
